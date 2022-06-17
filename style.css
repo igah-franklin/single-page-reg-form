@@ -45,15 +45,20 @@ main {
   padding: 3rem;
 }
 .text-content {
-  width: 40%;
+  width: 45%;
   color: #fff;
-  padding: 3rem;
+  padding: 2rem;
 }
 .text-content h1 {
   font-size: 2rem;
-  line-height: 3.5rem;
-  font-weight: 900;
+  line-height: 2.4rem;
+  font-weight: bolder;
   text-transform: capitalize;
+  font-family: "poppins";
+}
+.text-content p {
+  font-size: 0.8rem;
+  margin: 20px 0px 0px 0px;
 }
 .form-widget {
   width: 41%;
@@ -86,7 +91,7 @@ main {
 }
 .form-control input {
   width: 100%;
-  padding: 10px;
+  padding: 12px;
   outline: none;
   border-radius: 5px;
   border: none;
@@ -113,4 +118,20 @@ main {
 }
 .terms span {
   color: var(--Red);
+}
+
+@media (max-width: 375px) {
+  main {
+    width: 100%;
+  }
+  .container {
+    flex-direction: column;
+    height: auto;
+  }
+  .text-content,
+  .form-widget {
+    width: 100%;
+    padding: 0;
+    margin-top: 25px;
+  }
 }
