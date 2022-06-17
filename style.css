@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+:root {
+  --Red: hsl(0, 100%, 74%);
+  --Green: hsl(154, 59%, 51%);
+  --Blue: hsl(248, 32%, 49%);
+  --Dark-Blue: hsl(249, 10%, 26%);
+  --Grayish-Blue: hsl(246, 25%, 77%);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* main{
+    background-image: ;
+} */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 70vw;
+  margin: 0 auto;
+}
+.container {
+  background-image: linear-gradient(
+      to bottom,
+      hsl(0, 100%, 74%, 0.7),
+      hsl(0, 100%, 74%, 0.7)
+    ),
+    url("img/bg-intro-desktop.png");
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+.text-content {
+  width: 40%;
+  color: #fff;
+  padding: 3rem;
+}
+.text-content h1 {
+  font-size: 2rem;
+  line-height: 3.5rem;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.form-widget {
+  width: 40%;
+
+  /* padding: 4rem; */
+}
+.form-title {
+  background-color: #5d54a3;
+  text-align: center;
+  color: var(--Grayish-Blue);
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+.form-title span {
+  font-size: 10px;
+  color: #fff;
+}
+.form-cover {
+  background-color: #fff;
+  padding: 4rem 3rem 4rem;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.6) 0px 2px 8px 0px;
+  height: 70%;
+}
+.form-control {
+  padding: 10px 0px 10px 0px;
+}
+.form-control input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid #e3e3e3;
+}
+.form-control button {
+  width: 100%;
+  padding: 12px;
+  background-color: var(--Green);
+  outline: none;
+  color: #e3e3e3;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+.terms {
+  text-align: center;
+}
+.terms h6 {
+  font-size: 8px;
+}
+.terms span {
+  color: red;
+}
