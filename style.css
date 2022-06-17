@@ -32,8 +32,8 @@ main {
 .container {
   background-image: linear-gradient(
       to bottom,
-      hsl(0, 100%, 74%, 0.7),
-      hsl(0, 100%, 74%, 0.7)
+      rgba(247, 7, 7, 0.514),
+      rgba(247, 7, 7, 0.514)
     ),
     url("img/bg-intro-desktop.png");
   background-size: cover;
